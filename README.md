@@ -11,12 +11,16 @@ Implement all Entry Level and Intermediate Level API End Points.
 
 Entry Level
 a. Add Employee -  http://localhost:8080/addemployee
+
 b. Get All Employees - http://localhost:8080/employees
+
 c. Delete Employee  - http://localhost:8080/delete/( pass employeeId)
+
 d. Update Employee - http://localhost:8080/update  (also pass employeeId in Json body)
 
 Intermediate Level
 
 a. Get nth Level - http://localhost:8080/employees/manager?employeeId=(employeeId)&level=(level example 1)
+
 b. Get Employees with Pagination and Sorting - http://localhost:8080/employees?page=1
 page size is 5 so after adding 6 employee data you will se one data at page 1
